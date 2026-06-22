@@ -49,5 +49,4 @@
 ### Налаштування кодування (Обов'язково для Windows)
 Щоб український текст у консолі відображався коректно, а введення даних з клавіатури не викликало появи знаків питання (`????`), перед запуском програми виконайте в терміналі PowerShell наступну команду:
 
-powershell
 [Console]::InputEncoding = [System.Text.Encoding]::UTF8; [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
