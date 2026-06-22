@@ -12,7 +12,6 @@ public class EnrollmentService {
 
     public void enroll(Student student, Course course, String semester) {
         if (count >= enrollments.length) return;
-        // Перевірка на дублікат
         for (int i = 0; i < count; i++) {
             if (enrollments[i].getStudent().getId() == student.getId() && 
                 enrollments[i].getCourse().getId() == course.getId() &&
